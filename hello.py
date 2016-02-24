@@ -1,4 +1,4 @@
-from flask import Flask, Response
+from flask import Flask, Response, request
 app = Flask(__name__)
 import os
 
@@ -6,7 +6,14 @@ import os
 @app.route("/")
 def hello():
     return Response("\n".join(
-        ["Hello World!\n"] + map("=".join, os.environ.items())), mimetype='text/plain')
+        ["Hello World!",
+         "You appear to hail from %s" % request.remote_addr,
+         "\nEnvironment:" ] +\
+         map("=".join, os.environ.items()) + \
+         ['\nHeaders:'] +\
+         map("=".join, request.headers.items()) + \
+         ['\n']
+    ), mimetype='text/plain')
 
 if __name__ == "__main__":
     try:
