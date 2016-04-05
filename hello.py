@@ -1,12 +1,14 @@
 from flask import Flask, Response, request
 app = Flask(__name__)
 import os
+import socket
 
 
 @app.route("/")
 def hello():
     return Response("\n".join(
         ["Hello World!",
+         "I am running on %s" % socket.gethostname(),
          "You appear to hail from %s" % request.remote_addr,
          "\nEnvironment:" ] +\
          map("=".join, os.environ.items()) + \
