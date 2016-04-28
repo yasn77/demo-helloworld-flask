@@ -1,10 +1,9 @@
 Flask==0.10.1
 Jinja2==2.8
 MarkupSafe==0.23
-Werkzeug==0.11.3
+Twisted==16.1.1
+Werkzeug==0.11.9
 argparse==1.2.1
-gevent==1.1.1
-greenlet==0.4.9
-gunicorn==19.4.5
 itsdangerous==0.24
 wsgiref==0.1.2
+zope.interface==4.1.3

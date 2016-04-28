@@ -1,1 +1,1 @@
-web: gunicorn --log-file - --error-logfile - --access-logfile - -k gevent hello:app
+web: twistd -n web --wsgi hello.app -p $PORT
