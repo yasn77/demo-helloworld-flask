@@ -1,3 +1,3 @@
 # helloworld-flask
 
-A simple, sample test application
+A simple, sample test application. Built in flask.
