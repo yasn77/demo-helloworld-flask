@@ -1,7 +1,1 @@
-environment:
-- !secret 'gAAAAABYxsD3oUplkHZakqDwK5DvMmPz9Dk-IxSYuNLmeVKprNRh5kMaKS_2sslrMCdF4q5DRutezzgJsDvuxnBF8WaUh7hqXA=='
-- refs/heads/kalbir-test-mp:
-  - !secret 'gAAAAABYxsD34RBHBJGzfjX1SEQeyfZr_1dNXCEz0yqlbU2VKBKP6yyzfW6J5CZ6TXQcHkMSEYQfYNjj3uh1S5veI7C2ejUxRQ=='
-  - test=24
-installation_id: '10948'
-repo_id: '50422368'
+
