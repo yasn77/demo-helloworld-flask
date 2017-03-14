@@ -1,7 +1,7 @@
 environment:
-- !secret 'gAAAAABYxsD3oUplkHZakqDwK5DvMmPz9Dk-IxSYuNLmeVKprNRh5kMaKS_2sslrMCdF4q5DRutezzgJsDvuxnBF8WaUh7hqXA=='
+- !secret 'gAAAAABYx65YltrqQdnHPkYF4tIU17T1JJ38yjwVxzMiv27XCknbfPuhd6kAIqeErD37H-ld6iNtsgoIFcjaknAW5Ym3aLpYnQ=='
 - refs/heads/kalbir-test-mp:
-  - !secret 'gAAAAABYxsD34RBHBJGzfjX1SEQeyfZr_1dNXCEz0yqlbU2VKBKP6yyzfW6J5CZ6TXQcHkMSEYQfYNjj3uh1S5veI7C2ejUxRQ=='
-  - test=35
+  - test=24
+  - !secret 'gAAAAABYx65Y9oXuTirsI1siookRl_a9KTDd-1s1AfwvxyIQMW6NnjOmlG6XH0jCjUJha5BUqnofblvDWMjHCkIOcjcKBL9cEg=='
 installation_id: '10948'
 repo_id: '50422368'
