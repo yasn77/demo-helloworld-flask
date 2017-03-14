@@ -1,10 +1,10 @@
 environment:
-- !secret 'gAAAAABYyBOPvTTuVOQmmalewqyh4Z9ghnhD-dH5of2aVIXHvoSz-deYNG2a0nSAYZqdLlYVeMOBWPAypO1xLprsvRk-4C1VXWDHsorgvwY12udyygCVnBA='
-- refs/heads/kalbir-test-mp:
-  - !secret 'gAAAAABYyBOP2KBA6lRYaszD9vTrYGKwC42ib_hSjZYzXlWPiPi7KfP2a2K7xfMYjCaVmH1yDl3ys7OcGlCcQqqrZI3Opg-cjpuYsAhnIL5RGd--NGPTPuo='
+- foo=default
 - refs/heads/bt-mp-test-1:
-  - !secret 'gAAAAABYyBOP-qIHeUpTtq9VX4kc2Bm4-dDVZHwz5cIvCMkeJJmQ9qRNHY_e4U_83_rDTd8WmgU-uUC3iQZFCRrW5JpKExEsaVAdtdeS54dMfj5OqKIBqtw='
   - bonus=yolo
-- common=foo
+  - !secret 'gAAAAABYyEIErl3z_iX74XlMdRQ-9oUD1QW8n8lOu-KJCiVHPqhhVjVVqFh3GBi8pgBZMeXcx9rQ94Tzev6OIfkIQH_eiXSivoEER9Kfm35A9km0b9rkIuE='
+- refs/heads/kalbir-test-mp:
+  - !secret 'gAAAAABYyEIEyXgmHjFvi8q7o5Sdu7wliWJPE1hL0WyytxMiAmcVv3Ppao16K0a11SHyL3UxtBrL8VGa6nuOaikKkU1-LvYkIsGrBQIuAvkIvy_PgD8KfgE='
+- !secret 'gAAAAABYyEIE__LYuUX5Fcg5xL63VgxLlyOLhQYiW3tvqzEFEQXPBEqojSdK3zAvp7agV2YSjv2zGBiLchO6UiYOWarVzF2r-Hv6cYwdzaTavek-tGlMUJM='
 installation_id: '10948'
 repo_id: '50422368'
