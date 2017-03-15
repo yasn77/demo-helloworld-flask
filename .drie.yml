@@ -1,3 +1,11 @@
-environment: []
+environment:
+- foo=default
+- !secret 'gAAAAABYyY_uelzmDwsUAiT8obAFIXAGCT090ytx-HnGrB_ctdn4wb4b29vNJz0-V-shSpjroQPe0jj_XwVLVmkvhm6ET9L3hZ-i3R-Mii90UdCxqVCNOgQ='
+- refs/heads/bt-mp-test-1:
+  - foo=bt-mp-test-1
+  - !secret 'gAAAAABYyY_u-PsxzC7YgwrgpAxQWHEuR0NkACfqWIyopfUdTVG6qZfPPERHJZRkLGdik8xlrb2bspp7mhzqkRywHRcLAsGr3fM-V21GQWF9pWuUoAFFEYw='
+- refs/heads/kalbir-test-mp:
+  - foo=kalbir-test-mp
+  - !secret 'gAAAAABYyY_uTC-pw_iOrE3Am5kF0tWrLoxMUh1LQyQb24ZZCACdIaiM5s-amSmNeA6UHmEinPu-2xr03iFWpXGZvUgJqpB58nQRrJMGmpYe3C0ptNkOsfI='
 installation_id: '10948'
 repo_id: '50422368'
