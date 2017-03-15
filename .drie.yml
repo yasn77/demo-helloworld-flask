@@ -1,10 +1,3 @@
-environment:
-- foo=default
-- refs/heads/bt-mp-test-1:
-  - bonus=yolo
-  - !secret 'gAAAAABYyEIErl3z_iX74XlMdRQ-9oUD1QW8n8lOu-KJCiVHPqhhVjVVqFh3GBi8pgBZMeXcx9rQ94Tzev6OIfkIQH_eiXSivoEER9Kfm35A9km0b9rkIuE='
-- refs/heads/kalbir-test-mp:
-  - !secret 'gAAAAABYyEIEyXgmHjFvi8q7o5Sdu7wliWJPE1hL0WyytxMiAmcVv3Ppao16K0a11SHyL3UxtBrL8VGa6nuOaikKkU1-LvYkIsGrBQIuAvkIvy_PgD8KfgE='
-  - !secret 'gAAAAABYyEIE__LYuUX5Fcg5xL63VgxLlyOLhQYiW3tvqzEFEQXPBEqojSdK3zAvp7agV2YSjv2zGBiLchO6UiYOWarVzF2r-Hv6cYwdzaTavek-tGlMUJM='
+environment: []
 installation_id: '10948'
 repo_id: '50422368'
