@@ -1,2 +1,12 @@
 environment:
-- hello=world
+- p_shared=1
+- p_overriden=2
+- !secret 'gAAAAABZPWHgXvM14mf-qAnUKNe8lbIlY1fsRTQVyjlhnjI26KAo31pZP6Iv2T-uOOwNzVdL_P0pW2dWPpbqmdP9vrFKoPuKSg=='
+- !secret 'gAAAAABZPWHgDFFlo1A41RDJ5C7UklSYa2X59wRjlzgcSkXPON55DiO20ssfsxWgibpGcIBIjI7IjnDb2dSBOueeKKD50oy9Y8QTgsOeLOY18yf4ZpzBlTU='
+- refs/heads/test_ssh:
+  - p_overridden=6
+  - p_unique=7
+  - !secret 'gAAAAABZPWHgLapfe96VycY4RrDkNz4WRQyF-fc74q6ixHdNpcl1Oy0qKppNJ1ZNBe2Cr5eWYr8m0PatS4BeoW1hd8KshwUKDet8EBE8f95cFMdGYsSN7FY='
+  - !secret 'gAAAAABZPWHgFzGDSEwiBdnY-Jj9K-hFxnjjgSoFrcdyGE4wYcqoFcQpkuOStp98Tfhksbqvta_YsFnDe2aZKJ8xTwYHXddj2A=='
+installation_id: '27697'
+repo_id: '50422368'
