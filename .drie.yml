@@ -1,11 +1,7 @@
 environment:
-- build=4
+- build=1
 - p_shared=1
 - p_overriden=2
 - refs/heads/test_ssh:
   - p_overridden=6
   - p_unique=7
-  - !secret 'gAAAAABZSlIlLyl7xj-sL2JhyLlsedRZxcjXS_5YhuUoiRYQvnM2gX_CYPeBRi-pm5OwrGRvaH_CUodTRcl2zJb9aq2mLQ1eQw=='
-- !secret 'gAAAAABZSlIl7ywXbULxpFi0W_6O7TTXByf5bRxCvw8wDvlhyTkDw04fW1YerOEC345TvU7JEr0q3HwY2Qq8iz52zYMbdwZsiQ=='
-installation_id: '34393'
-repo_id: '50422368'
