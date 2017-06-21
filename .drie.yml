@@ -1,4 +1,5 @@
 environment:
+- build=1
 - p_shared=1
 - p_overriden=2
 - !secret 'gAAAAABZPWHgXvM14mf-qAnUKNe8lbIlY1fsRTQVyjlhnjI26KAo31pZP6Iv2T-uOOwNzVdL_P0pW2dWPpbqmdP9vrFKoPuKSg=='
