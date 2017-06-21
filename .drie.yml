@@ -1,5 +1,5 @@
 environment:
-- build=2
+- build=4
 - p_shared=1
 - p_overriden=2
 - refs/heads/test_ssh:
