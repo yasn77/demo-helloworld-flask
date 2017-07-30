@@ -4,18 +4,17 @@ import os
 import socket
 
 
+@app.route("/<name>")
 @app.route("/")
-def hello():
+def hello(name=None):
+    u = name if name is not None else 'World!'
     return Response("\n".join(
-        ["Hello World!",
+        ["Hello {}".format(u),
          "I am running on %s" % socket.gethostname(),
          "You appear to hail from %s" % request.remote_addr,
-         "\nEnvironment:" ] +\
-         map("=".join, os.environ.items()) + \
-         ['\nHeaders:'] +\
-         map("=".join, request.headers.items()) + \
-         ['\n']
-    ), mimetype='text/plain')
+         "\nHeaders:"] + map("=".join, request.headers.items())
+        ), mimetype='text/plain')
+
 
 if __name__ == "__main__":
     try:
