@@ -7,7 +7,7 @@ import socket
 @app.route("/<name>")
 @app.route("/")
 def hello(name=None):
-    u = name if name is not None else 'World!!!'
+    u = name if name is not None else 'World!'
     return Response("\n".join(
         ["Hello {}".format(u),
          "I am running on %s" % socket.gethostname(),
