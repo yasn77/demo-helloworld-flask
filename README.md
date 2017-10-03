@@ -3,4 +3,5 @@
 A simple, sample application.
 
 foo
-bar
+barx
+
