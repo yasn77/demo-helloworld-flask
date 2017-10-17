@@ -2,4 +2,4 @@
 
 A simple, sample application.
 
-foo
+thing
