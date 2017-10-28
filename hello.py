@@ -11,7 +11,6 @@ def hello(name=None):
     return Response("\n".join(
         ["Hello {}".format(u),
          "I am running on %s" % socket.gethostname(),
-         "You appear to hail from %s" % request.remote_addr,
          "\nHeaders:"] + map("=".join, request.headers.items())
         ), mimetype='text/plain')
 
