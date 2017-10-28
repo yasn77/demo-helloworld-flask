@@ -1,4 +1,3 @@
 # helloworld-flask
 
-A simple, sample application.
-
+A simple, sample application. Written in Python using Flask
